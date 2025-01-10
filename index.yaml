@@ -3,7 +3,7 @@ entries:
   demochart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-01-10T10:25:12.096409812+05:30"
+    created: "2025-01-10T14:09:12.189649324+05:30"
     description: A Helm chart for Kubernetes
     digest: 293528dd17db51021fdfa137e860af23b2484cb7e45e46a6fe9df023ad52cdb1
     name: demochart
@@ -11,4 +11,19 @@ entries:
     urls:
     - demochart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-10T10:25:12.095945082+05:30"
+  tomcatchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-10T14:09:12.192761611+05:30"
+    dependencies:
+    - name: tomcat
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.3.3
+    description: A Helm chart for Kubernetes
+    digest: e3f0d08af253194d9a5ea719948c9092f5864b990ce0ee07dc3aac039512c910
+    name: tomcatchart
+    type: application
+    urls:
+    - tomcatchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-10T14:09:12.189055116+05:30"
